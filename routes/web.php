@@ -24,4 +24,4 @@ Route::get('/quiz', 'QuestionController@index');
 Route::get('/quiz/{question}', 'QuestionController@show');
 
 //store answer into 'answers' database table
-Route::post('/quiz/{answer}', 'QuestionController@store');
+Route::post('/result', 'QuestionController@store');
